@@ -11,6 +11,9 @@
 		EA5D51E72A21723B002A852E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D51E62A21723B002A852E /* ContentView.swift */; };
 		EA5D51E92A21723D002A852E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5D51E82A21723D002A852E /* Assets.xcassets */; };
 		EA5D51EC2A21723D002A852E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5D51EB2A21723D002A852E /* Preview Assets.xcassets */; };
+		EA5D51F32A217267002A852E /* JSON.json in Resources */ = {isa = PBXBuildFile; fileRef = EA5D51F22A217267002A852E /* JSON.json */; };
+		EA5D51F52A217298002A852E /* JSONManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D51F42A217298002A852E /* JSONManger.swift */; };
+		EA5D51F72A2229F3002A852E /* JSONView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D51F62A2229F3002A852E /* JSONView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		EA5D51E62A21723B002A852E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EA5D51E82A21723D002A852E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA5D51EB2A21723D002A852E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA5D51F22A217267002A852E /* JSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = JSON.json; sourceTree = "<group>"; };
+		EA5D51F42A217298002A852E /* JSONManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManger.swift; sourceTree = "<group>"; };
+		EA5D51F62A2229F3002A852E /* JSONView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				EA5D51E62A21723B002A852E /* ContentView.swift */,
 				EA5D51E82A21723D002A852E /* Assets.xcassets */,
 				EA5D51EA2A21723D002A852E /* Preview Content */,
+				EA5D51F22A217267002A852E /* JSON.json */,
+				EA5D51F42A217298002A852E /* JSONManger.swift */,
+				EA5D51F62A2229F3002A852E /* JSONView.swift */,
 			);
 			path = JSONAssignment;
 			sourceTree = "<group>";
@@ -127,6 +136,7 @@
 			files = (
 				EA5D51EC2A21723D002A852E /* Preview Assets.xcassets in Resources */,
 				EA5D51E92A21723D002A852E /* Assets.xcassets in Resources */,
+				EA5D51F32A217267002A852E /* JSON.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +149,8 @@
 			files = (
 				EA5D51E72A21723B002A852E /* ContentView.swift in Sources */,
 				EA5D51E52A21723B002A852E /* JSONAssignmentApp.swift in Sources */,
+				EA5D51F72A2229F3002A852E /* JSONView.swift in Sources */,
+				EA5D51F52A217298002A852E /* JSONManger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
